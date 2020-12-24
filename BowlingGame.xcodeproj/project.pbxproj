@@ -14,6 +14,7 @@
 		BE475A5C2594AC700060FB45 /* GameManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A5B2594AC700060FB45 /* GameManagerTests.swift */; };
 		BE475A672594AC700060FB45 /* BowlingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A662594AC700060FB45 /* BowlingGameUITests.swift */; };
 		BE76F0B12594AEF600D8CB51 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76F0B02594AEF600D8CB51 /* GameManager.swift */; };
+		BE7F0D6A25950E10001E8217 /* CollectionType+SubscriptSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BE475A662594AC700060FB45 /* BowlingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameUITests.swift; sourceTree = "<group>"; };
 		BE475A682594AC700060FB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE76F0B02594AEF600D8CB51 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionType+SubscriptSafe.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		BE475A482594AC6C0060FB45 /* BowlingGame */ = {
 			isa = PBXGroup;
 			children = (
+				BE7F0D6825950DDF001E8217 /* Extensions */,
 				BE76F0B02594AEF600D8CB51 /* GameManager.swift */,
 				BE475A492594AC6C0060FB45 /* BowlingGameApp.swift */,
 				BE475A4B2594AC6C0060FB45 /* ContentView.swift */,
@@ -131,6 +134,14 @@
 				BE475A682594AC700060FB45 /* Info.plist */,
 			);
 			path = BowlingGameUITests;
+			sourceTree = "<group>";
+		};
+		BE7F0D6825950DDF001E8217 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7F0D6A25950E10001E8217 /* CollectionType+SubscriptSafe.swift in Sources */,
 				BE475A4C2594AC6C0060FB45 /* ContentView.swift in Sources */,
 				BE76F0B12594AEF600D8CB51 /* GameManager.swift in Sources */,
 				BE475A4A2594AC6C0060FB45 /* BowlingGameApp.swift in Sources */,
