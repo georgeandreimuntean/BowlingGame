@@ -7,66 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE475A4A2594AC6C0060FB45 /* BowlingGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A492594AC6C0060FB45 /* BowlingGameApp.swift */; };
-		BE475A4C2594AC6C0060FB45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A4B2594AC6C0060FB45 /* ContentView.swift */; };
-		BE475A4E2594AC700060FB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE475A4D2594AC700060FB45 /* Assets.xcassets */; };
-		BE475A512594AC700060FB45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE475A502594AC700060FB45 /* Preview Assets.xcassets */; };
-		BE475A5C2594AC700060FB45 /* GameManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A5B2594AC700060FB45 /* GameManagerTests.swift */; };
-		BE475A672594AC700060FB45 /* BowlingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE475A662594AC700060FB45 /* BowlingGameUITests.swift */; };
-		BE76F0B12594AEF600D8CB51 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE76F0B02594AEF600D8CB51 /* GameManager.swift */; };
-		BE7F0D6A25950E10001E8217 /* CollectionType+SubscriptSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */; };
+		BEAE2EB925953C7500FDA5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */; };
+		BEAE2EBB25953C7500FDA5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */; };
+		BEAE2EBD25953C7500FDA5D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EBC25953C7500FDA5D4 /* GameViewController.swift */; };
+		BEAE2EC025953C7500FDA5D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAE2EBE25953C7500FDA5D4 /* Main.storyboard */; };
+		BEAE2EC225953C7800FDA5D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEAE2EC125953C7800FDA5D4 /* Assets.xcassets */; };
+		BEAE2EC525953C7800FDA5D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEAE2EC325953C7800FDA5D4 /* LaunchScreen.storyboard */; };
+		BEAE2ED025953C7800FDA5D4 /* GameManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2ECF25953C7800FDA5D4 /* GameManagerTests.swift */; };
+		BEAE2EDB25953C7800FDA5D4 /* BowlingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EDA25953C7800FDA5D4 /* BowlingGameUITests.swift */; };
+		BEAE2EEC25953C9600FDA5D4 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EEB25953C9600FDA5D4 /* GameManager.swift */; };
+		BEAE2EF525953CED00FDA5D4 /* CollectionType+SubscriptSafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EF425953CEC00FDA5D4 /* CollectionType+SubscriptSafe.swift */; };
+		BEAE2F052595488100FDA5D4 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2F042595488100FDA5D4 /* GameViewModel.swift */; };
+		BEAE2F12259548C100FDA5D4 /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2F11259548C100FDA5D4 /* Dynamic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		BE475A582594AC700060FB45 /* PBXContainerItemProxy */ = {
+		BEAE2ECC25953C7800FDA5D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE475A3E2594AC6C0060FB45 /* Project object */;
+			containerPortal = BEAE2EAD25953C7500FDA5D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE475A452594AC6C0060FB45;
+			remoteGlobalIDString = BEAE2EB425953C7500FDA5D4;
 			remoteInfo = BowlingGame;
 		};
-		BE475A632594AC700060FB45 /* PBXContainerItemProxy */ = {
+		BEAE2ED725953C7800FDA5D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BE475A3E2594AC6C0060FB45 /* Project object */;
+			containerPortal = BEAE2EAD25953C7500FDA5D4 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BE475A452594AC6C0060FB45;
+			remoteGlobalIDString = BEAE2EB425953C7500FDA5D4;
 			remoteInfo = BowlingGame;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BE475A462594AC6C0060FB45 /* BowlingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE475A492594AC6C0060FB45 /* BowlingGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameApp.swift; sourceTree = "<group>"; };
-		BE475A4B2594AC6C0060FB45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		BE475A4D2594AC700060FB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BE475A502594AC700060FB45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BE475A522594AC700060FB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE475A572594AC700060FB45 /* BowlingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE475A5B2594AC700060FB45 /* GameManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerTests.swift; sourceTree = "<group>"; };
-		BE475A5D2594AC700060FB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE475A622594AC700060FB45 /* BowlingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BE475A662594AC700060FB45 /* BowlingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameUITests.swift; sourceTree = "<group>"; };
-		BE475A682594AC700060FB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE76F0B02594AEF600D8CB51 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
-		BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CollectionType+SubscriptSafe.swift"; sourceTree = "<group>"; };
+		BEAE2EB525953C7500FDA5D4 /* BowlingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEAE2EBC25953C7500FDA5D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BEAE2EBF25953C7500FDA5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEAE2EC125953C7800FDA5D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEAE2EC425953C7800FDA5D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEAE2EC625953C7800FDA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAE2ECB25953C7800FDA5D4 /* BowlingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAE2ECF25953C7800FDA5D4 /* GameManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManagerTests.swift; sourceTree = "<group>"; };
+		BEAE2ED125953C7800FDA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAE2ED625953C7800FDA5D4 /* BowlingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAE2EDA25953C7800FDA5D4 /* BowlingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameUITests.swift; sourceTree = "<group>"; };
+		BEAE2EDC25953C7800FDA5D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEAE2EEB25953C9600FDA5D4 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		BEAE2EF425953CEC00FDA5D4 /* CollectionType+SubscriptSafe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CollectionType+SubscriptSafe.swift"; sourceTree = "<group>"; };
+		BEAE2F042595488100FDA5D4 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		BEAE2F11259548C100FDA5D4 /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BE475A432594AC6C0060FB45 /* Frameworks */ = {
+		BEAE2EB225953C7500FDA5D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A542594AC700060FB45 /* Frameworks */ = {
+		BEAE2EC825953C7800FDA5D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A5F2594AC700060FB45 /* Frameworks */ = {
+		BEAE2ED325953C7800FDA5D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,85 +84,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BE475A3D2594AC6C0060FB45 = {
+		BEAE2EAC25953C7500FDA5D4 = {
 			isa = PBXGroup;
 			children = (
-				BE475A482594AC6C0060FB45 /* BowlingGame */,
-				BE475A5A2594AC700060FB45 /* BowlingGameTests */,
-				BE475A652594AC700060FB45 /* BowlingGameUITests */,
-				BE475A472594AC6C0060FB45 /* Products */,
+				BEAE2EB725953C7500FDA5D4 /* BowlingGame */,
+				BEAE2ECE25953C7800FDA5D4 /* BowlingGameTests */,
+				BEAE2ED925953C7800FDA5D4 /* BowlingGameUITests */,
+				BEAE2EB625953C7500FDA5D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BE475A472594AC6C0060FB45 /* Products */ = {
+		BEAE2EB625953C7500FDA5D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BE475A462594AC6C0060FB45 /* BowlingGame.app */,
-				BE475A572594AC700060FB45 /* BowlingGameTests.xctest */,
-				BE475A622594AC700060FB45 /* BowlingGameUITests.xctest */,
+				BEAE2EB525953C7500FDA5D4 /* BowlingGame.app */,
+				BEAE2ECB25953C7800FDA5D4 /* BowlingGameTests.xctest */,
+				BEAE2ED625953C7800FDA5D4 /* BowlingGameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BE475A482594AC6C0060FB45 /* BowlingGame */ = {
+		BEAE2EB725953C7500FDA5D4 /* BowlingGame */ = {
 			isa = PBXGroup;
 			children = (
-				BE7F0D6825950DDF001E8217 /* Extensions */,
-				BE76F0B02594AEF600D8CB51 /* GameManager.swift */,
-				BE475A492594AC6C0060FB45 /* BowlingGameApp.swift */,
-				BE475A4B2594AC6C0060FB45 /* ContentView.swift */,
-				BE475A4D2594AC700060FB45 /* Assets.xcassets */,
-				BE475A522594AC700060FB45 /* Info.plist */,
-				BE475A4F2594AC700060FB45 /* Preview Content */,
+				BEAE2F022595486400FDA5D4 /* Controller */,
+				BEAE2F032595487300FDA5D4 /* ViewModel */,
+				BEAE2F0F259548A700FDA5D4 /* Helper */,
+				BEAE2EEB25953C9600FDA5D4 /* GameManager.swift */,
+				BEAE2EF325953CDE00FDA5D4 /* Extensions */,
+				BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */,
+				BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */,
+				BEAE2EBE25953C7500FDA5D4 /* Main.storyboard */,
+				BEAE2EC125953C7800FDA5D4 /* Assets.xcassets */,
+				BEAE2EC325953C7800FDA5D4 /* LaunchScreen.storyboard */,
+				BEAE2EC625953C7800FDA5D4 /* Info.plist */,
 			);
 			path = BowlingGame;
 			sourceTree = "<group>";
 		};
-		BE475A4F2594AC700060FB45 /* Preview Content */ = {
+		BEAE2ECE25953C7800FDA5D4 /* BowlingGameTests */ = {
 			isa = PBXGroup;
 			children = (
-				BE475A502594AC700060FB45 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BE475A5A2594AC700060FB45 /* BowlingGameTests */ = {
-			isa = PBXGroup;
-			children = (
-				BE475A5B2594AC700060FB45 /* GameManagerTests.swift */,
-				BE475A5D2594AC700060FB45 /* Info.plist */,
+				BEAE2ECF25953C7800FDA5D4 /* GameManagerTests.swift */,
+				BEAE2ED125953C7800FDA5D4 /* Info.plist */,
 			);
 			path = BowlingGameTests;
 			sourceTree = "<group>";
 		};
-		BE475A652594AC700060FB45 /* BowlingGameUITests */ = {
+		BEAE2ED925953C7800FDA5D4 /* BowlingGameUITests */ = {
 			isa = PBXGroup;
 			children = (
-				BE475A662594AC700060FB45 /* BowlingGameUITests.swift */,
-				BE475A682594AC700060FB45 /* Info.plist */,
+				BEAE2EDA25953C7800FDA5D4 /* BowlingGameUITests.swift */,
+				BEAE2EDC25953C7800FDA5D4 /* Info.plist */,
 			);
 			path = BowlingGameUITests;
 			sourceTree = "<group>";
 		};
-		BE7F0D6825950DDF001E8217 /* Extensions */ = {
+		BEAE2EF325953CDE00FDA5D4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				BE7F0D6925950E10001E8217 /* CollectionType+SubscriptSafe.swift */,
+				BEAE2EF425953CEC00FDA5D4 /* CollectionType+SubscriptSafe.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BEAE2F022595486400FDA5D4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEAE2EBC25953C7500FDA5D4 /* GameViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEAE2F032595487300FDA5D4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BEAE2F042595488100FDA5D4 /* GameViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BEAE2F0F259548A700FDA5D4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BEAE2F11259548C100FDA5D4 /* Dynamic.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BE475A452594AC6C0060FB45 /* BowlingGame */ = {
+		BEAE2EB425953C7500FDA5D4 /* BowlingGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE475A6B2594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGame" */;
+			buildConfigurationList = BEAE2EDF25953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGame" */;
 			buildPhases = (
-				BE7F0D5B2594BD26001E8217 /* Hilight To-Do's */,
-				BE475A422594AC6C0060FB45 /* Sources */,
-				BE475A432594AC6C0060FB45 /* Frameworks */,
-				BE475A442594AC6C0060FB45 /* Resources */,
+				BEAE2EB125953C7500FDA5D4 /* Sources */,
+				BEAE2EB225953C7500FDA5D4 /* Frameworks */,
+				BEAE2EB325953C7500FDA5D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -162,68 +189,68 @@
 			);
 			name = BowlingGame;
 			productName = BowlingGame;
-			productReference = BE475A462594AC6C0060FB45 /* BowlingGame.app */;
+			productReference = BEAE2EB525953C7500FDA5D4 /* BowlingGame.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BE475A562594AC700060FB45 /* BowlingGameTests */ = {
+		BEAE2ECA25953C7800FDA5D4 /* BowlingGameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE475A6E2594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */;
+			buildConfigurationList = BEAE2EE225953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */;
 			buildPhases = (
-				BE475A532594AC700060FB45 /* Sources */,
-				BE475A542594AC700060FB45 /* Frameworks */,
-				BE475A552594AC700060FB45 /* Resources */,
+				BEAE2EC725953C7800FDA5D4 /* Sources */,
+				BEAE2EC825953C7800FDA5D4 /* Frameworks */,
+				BEAE2EC925953C7800FDA5D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE475A592594AC700060FB45 /* PBXTargetDependency */,
+				BEAE2ECD25953C7800FDA5D4 /* PBXTargetDependency */,
 			);
 			name = BowlingGameTests;
 			productName = BowlingGameTests;
-			productReference = BE475A572594AC700060FB45 /* BowlingGameTests.xctest */;
+			productReference = BEAE2ECB25953C7800FDA5D4 /* BowlingGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BE475A612594AC700060FB45 /* BowlingGameUITests */ = {
+		BEAE2ED525953C7800FDA5D4 /* BowlingGameUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BE475A712594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGameUITests" */;
+			buildConfigurationList = BEAE2EE525953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGameUITests" */;
 			buildPhases = (
-				BE475A5E2594AC700060FB45 /* Sources */,
-				BE475A5F2594AC700060FB45 /* Frameworks */,
-				BE475A602594AC700060FB45 /* Resources */,
+				BEAE2ED225953C7800FDA5D4 /* Sources */,
+				BEAE2ED325953C7800FDA5D4 /* Frameworks */,
+				BEAE2ED425953C7800FDA5D4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				BE475A642594AC700060FB45 /* PBXTargetDependency */,
+				BEAE2ED825953C7800FDA5D4 /* PBXTargetDependency */,
 			);
 			name = BowlingGameUITests;
 			productName = BowlingGameUITests;
-			productReference = BE475A622594AC700060FB45 /* BowlingGameUITests.xctest */;
+			productReference = BEAE2ED625953C7800FDA5D4 /* BowlingGameUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BE475A3E2594AC6C0060FB45 /* Project object */ = {
+		BEAE2EAD25953C7500FDA5D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					BE475A452594AC6C0060FB45 = {
+					BEAE2EB425953C7500FDA5D4 = {
 						CreatedOnToolsVersion = 12.2;
 					};
-					BE475A562594AC700060FB45 = {
+					BEAE2ECA25953C7800FDA5D4 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = BE475A452594AC6C0060FB45;
+						TestTargetID = BEAE2EB425953C7500FDA5D4;
 					};
-					BE475A612594AC700060FB45 = {
+					BEAE2ED525953C7800FDA5D4 = {
 						CreatedOnToolsVersion = 12.2;
-						TestTargetID = BE475A452594AC6C0060FB45;
+						TestTargetID = BEAE2EB425953C7500FDA5D4;
 					};
 				};
 			};
-			buildConfigurationList = BE475A412594AC6C0060FB45 /* Build configuration list for PBXProject "BowlingGame" */;
+			buildConfigurationList = BEAE2EB025953C7500FDA5D4 /* Build configuration list for PBXProject "BowlingGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -231,36 +258,37 @@
 				en,
 				Base,
 			);
-			mainGroup = BE475A3D2594AC6C0060FB45;
-			productRefGroup = BE475A472594AC6C0060FB45 /* Products */;
+			mainGroup = BEAE2EAC25953C7500FDA5D4;
+			productRefGroup = BEAE2EB625953C7500FDA5D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BE475A452594AC6C0060FB45 /* BowlingGame */,
-				BE475A562594AC700060FB45 /* BowlingGameTests */,
-				BE475A612594AC700060FB45 /* BowlingGameUITests */,
+				BEAE2EB425953C7500FDA5D4 /* BowlingGame */,
+				BEAE2ECA25953C7800FDA5D4 /* BowlingGameTests */,
+				BEAE2ED525953C7800FDA5D4 /* BowlingGameUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BE475A442594AC6C0060FB45 /* Resources */ = {
+		BEAE2EB325953C7500FDA5D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE475A512594AC700060FB45 /* Preview Assets.xcassets in Resources */,
-				BE475A4E2594AC700060FB45 /* Assets.xcassets in Resources */,
+				BEAE2EC525953C7800FDA5D4 /* LaunchScreen.storyboard in Resources */,
+				BEAE2EC225953C7800FDA5D4 /* Assets.xcassets in Resources */,
+				BEAE2EC025953C7500FDA5D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A552594AC700060FB45 /* Resources */ = {
+		BEAE2EC925953C7800FDA5D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A602594AC700060FB45 /* Resources */ = {
+		BEAE2ED425953C7800FDA5D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,72 +297,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		BE7F0D5B2594BD26001E8217 /* Hilight To-Do's */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Hilight To-Do's";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Hilight to-do's in the code\nKEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\n\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | \n  xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | \n  perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		BE475A422594AC6C0060FB45 /* Sources */ = {
+		BEAE2EB125953C7500FDA5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE7F0D6A25950E10001E8217 /* CollectionType+SubscriptSafe.swift in Sources */,
-				BE475A4C2594AC6C0060FB45 /* ContentView.swift in Sources */,
-				BE76F0B12594AEF600D8CB51 /* GameManager.swift in Sources */,
-				BE475A4A2594AC6C0060FB45 /* BowlingGameApp.swift in Sources */,
+				BEAE2F052595488100FDA5D4 /* GameViewModel.swift in Sources */,
+				BEAE2EBD25953C7500FDA5D4 /* GameViewController.swift in Sources */,
+				BEAE2EEC25953C9600FDA5D4 /* GameManager.swift in Sources */,
+				BEAE2F12259548C100FDA5D4 /* Dynamic.swift in Sources */,
+				BEAE2EB925953C7500FDA5D4 /* AppDelegate.swift in Sources */,
+				BEAE2EF525953CED00FDA5D4 /* CollectionType+SubscriptSafe.swift in Sources */,
+				BEAE2EBB25953C7500FDA5D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A532594AC700060FB45 /* Sources */ = {
+		BEAE2EC725953C7800FDA5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE475A5C2594AC700060FB45 /* GameManagerTests.swift in Sources */,
+				BEAE2ED025953C7800FDA5D4 /* GameManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BE475A5E2594AC700060FB45 /* Sources */ = {
+		BEAE2ED225953C7800FDA5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE475A672594AC700060FB45 /* BowlingGameUITests.swift in Sources */,
+				BEAE2EDB25953C7800FDA5D4 /* BowlingGameUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		BE475A592594AC700060FB45 /* PBXTargetDependency */ = {
+		BEAE2ECD25953C7800FDA5D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE475A452594AC6C0060FB45 /* BowlingGame */;
-			targetProxy = BE475A582594AC700060FB45 /* PBXContainerItemProxy */;
+			target = BEAE2EB425953C7500FDA5D4 /* BowlingGame */;
+			targetProxy = BEAE2ECC25953C7800FDA5D4 /* PBXContainerItemProxy */;
 		};
-		BE475A642594AC700060FB45 /* PBXTargetDependency */ = {
+		BEAE2ED825953C7800FDA5D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BE475A452594AC6C0060FB45 /* BowlingGame */;
-			targetProxy = BE475A632594AC700060FB45 /* PBXContainerItemProxy */;
+			target = BEAE2EB425953C7500FDA5D4 /* BowlingGame */;
+			targetProxy = BEAE2ED725953C7800FDA5D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		BEAE2EBE25953C7500FDA5D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAE2EBF25953C7500FDA5D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEAE2EC325953C7800FDA5D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEAE2EC425953C7800FDA5D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		BE475A692594AC700060FB45 /* Debug */ = {
+		BEAE2EDD25953C7800FDA5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -395,7 +424,7 @@
 			};
 			name = Debug;
 		};
-		BE475A6A2594AC700060FB45 /* Release */ = {
+		BEAE2EDE25953C7800FDA5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -450,17 +479,14 @@
 			};
 			name = Release;
 		};
-		BE475A6C2594AC700060FB45 /* Debug */ = {
+		BEAE2EE025953C7800FDA5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BowlingGame/Preview Content\"";
 				DEVELOPMENT_TEAM = 35DLNN5MRW;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BowlingGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,17 +498,14 @@
 			};
 			name = Debug;
 		};
-		BE475A6D2594AC700060FB45 /* Release */ = {
+		BEAE2EE125953C7800FDA5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"BowlingGame/Preview Content\"";
 				DEVELOPMENT_TEAM = 35DLNN5MRW;
-				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = BowlingGame/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -494,7 +517,7 @@
 			};
 			name = Release;
 		};
-		BE475A6F2594AC700060FB45 /* Debug */ = {
+		BEAE2EE325953C7800FDA5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -502,7 +525,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35DLNN5MRW;
 				INFOPLIST_FILE = BowlingGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -516,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		BE475A702594AC700060FB45 /* Release */ = {
+		BEAE2EE425953C7800FDA5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -524,7 +547,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35DLNN5MRW;
 				INFOPLIST_FILE = BowlingGameTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -538,7 +561,7 @@
 			};
 			name = Release;
 		};
-		BE475A722594AC700060FB45 /* Debug */ = {
+		BEAE2EE625953C7800FDA5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -558,7 +581,7 @@
 			};
 			name = Debug;
 		};
-		BE475A732594AC700060FB45 /* Release */ = {
+		BEAE2EE725953C7800FDA5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -581,43 +604,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BE475A412594AC6C0060FB45 /* Build configuration list for PBXProject "BowlingGame" */ = {
+		BEAE2EB025953C7500FDA5D4 /* Build configuration list for PBXProject "BowlingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE475A692594AC700060FB45 /* Debug */,
-				BE475A6A2594AC700060FB45 /* Release */,
+				BEAE2EDD25953C7800FDA5D4 /* Debug */,
+				BEAE2EDE25953C7800FDA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE475A6B2594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGame" */ = {
+		BEAE2EDF25953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE475A6C2594AC700060FB45 /* Debug */,
-				BE475A6D2594AC700060FB45 /* Release */,
+				BEAE2EE025953C7800FDA5D4 /* Debug */,
+				BEAE2EE125953C7800FDA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE475A6E2594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */ = {
+		BEAE2EE225953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE475A6F2594AC700060FB45 /* Debug */,
-				BE475A702594AC700060FB45 /* Release */,
+				BEAE2EE325953C7800FDA5D4 /* Debug */,
+				BEAE2EE425953C7800FDA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BE475A712594AC700060FB45 /* Build configuration list for PBXNativeTarget "BowlingGameUITests" */ = {
+		BEAE2EE525953C7800FDA5D4 /* Build configuration list for PBXNativeTarget "BowlingGameUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE475A722594AC700060FB45 /* Debug */,
-				BE475A732594AC700060FB45 /* Release */,
+				BEAE2EE625953C7800FDA5D4 /* Debug */,
+				BEAE2EE725953C7800FDA5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BE475A3E2594AC6C0060FB45 /* Project object */;
+	rootObject = BEAE2EAD25953C7500FDA5D4 /* Project object */;
 }

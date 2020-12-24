@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 private let maxPoints = 10
 
 struct Frame {
