@@ -20,35 +20,52 @@
                                 <rect key="frame" x="0.0" y="98" width="414" height="269"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cMV-EB-sdn">
-                                        <rect key="frame" x="182" y="0.0" width="50" height="87.5"/>
+                                        <rect key="frame" x="182" y="0.0" width="50" height="65"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="mm6-Qm-ztd">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="87.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-wy-37j">
-                                        <rect key="frame" x="147" y="90.5" width="120" height="87.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fT7-wy-37j">
+                                        <rect key="frame" x="157" y="68" width="100" height="65"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="GVz-B2-0dg">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="87.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="0vk-CD-SIM">
-                                                <rect key="frame" x="70" y="0.0" width="50" height="87.5"/>
+                                                <rect key="frame" x="50" y="0.0" width="50" height="65"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="0DE-2V-3PJ">
-                                        <rect key="frame" x="112" y="181" width="190" height="88"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="0DE-2V-3PJ">
+                                        <rect key="frame" x="132" y="136" width="150" height="65"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="Jll-jk-twq">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="88"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="b5M-pz-8cS">
-                                                <rect key="frame" x="70" y="0.0" width="50" height="88"/>
+                                                <rect key="frame" x="50" y="0.0" width="50" height="65"/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="Hy7-em-aUv">
-                                                <rect key="frame" x="140" y="0.0" width="50" height="88"/>
+                                                <rect key="frame" x="100" y="0.0" width="50" height="65"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="-15" translatesAutoresizingMaskIntoConstraints="NO" id="pqf-Sx-FcT">
+                                        <rect key="frame" x="129.5" y="204" width="155" height="65"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="ASa-DH-Zmi">
+                                                <rect key="frame" x="0.0" y="0.0" width="50" height="65"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="gAf-Ne-75e">
+                                                <rect key="frame" x="35" y="0.0" width="50" height="65"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="qoP-8w-zZi">
+                                                <rect key="frame" x="70" y="0.0" width="50" height="65"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bowling_pin" translatesAutoresizingMaskIntoConstraints="NO" id="glZ-4V-kVy">
+                                                <rect key="frame" x="105" y="0.0" width="50" height="65"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -92,7 +109,19 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bowlingBall" destination="RQg-Bx-q26" id="gKq-9I-iJO"/>
                         <outlet property="panGestureRecognizer" destination="Pyr-fX-k9m" id="nnH-HD-8NU"/>
+                        <outlet property="roundLabel" destination="dPT-MV-Tcp" id="Zyl-ky-d2T"/>
+                        <outletCollection property="bowlingPins" destination="mm6-Qm-ztd" collectionClass="NSMutableArray" id="eaC-uy-b6k"/>
+                        <outletCollection property="bowlingPins" destination="GVz-B2-0dg" collectionClass="NSMutableArray" id="NNA-8z-MZi"/>
+                        <outletCollection property="bowlingPins" destination="0vk-CD-SIM" collectionClass="NSMutableArray" id="Z5q-5g-now"/>
+                        <outletCollection property="bowlingPins" destination="Jll-jk-twq" collectionClass="NSMutableArray" id="obW-it-mie"/>
+                        <outletCollection property="bowlingPins" destination="b5M-pz-8cS" collectionClass="NSMutableArray" id="q67-M8-4wZ"/>
+                        <outletCollection property="bowlingPins" destination="Hy7-em-aUv" collectionClass="NSMutableArray" id="jbj-ui-boO"/>
+                        <outletCollection property="bowlingPins" destination="ASa-DH-Zmi" collectionClass="NSMutableArray" id="N2t-Rz-2M1"/>
+                        <outletCollection property="bowlingPins" destination="gAf-Ne-75e" collectionClass="NSMutableArray" id="EkL-wD-Xoz"/>
+                        <outletCollection property="bowlingPins" destination="qoP-8w-zZi" collectionClass="NSMutableArray" id="5vM-cl-d9P"/>
+                        <outletCollection property="bowlingPins" destination="glZ-4V-kVy" collectionClass="NSMutableArray" id="eeq-Ba-WnM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

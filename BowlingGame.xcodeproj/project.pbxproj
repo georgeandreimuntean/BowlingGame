@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BEA35D17259584CA00ADCA9F /* GameViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA35D16259584CA00ADCA9F /* GameViewModelTests.swift */; };
 		BEAE2EB925953C7500FDA5D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */; };
 		BEAE2EBB25953C7500FDA5D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */; };
 		BEAE2EBD25953C7500FDA5D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAE2EBC25953C7500FDA5D4 /* GameViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BEA35D16259584CA00ADCA9F /* GameViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModelTests.swift; sourceTree = "<group>"; };
 		BEAE2EB525953C7500FDA5D4 /* BowlingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BowlingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BEA35D122595769500ADCA9F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BEAE2EEB25953C9600FDA5D4 /* GameManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		BEAE2EAC25953C7500FDA5D4 = {
 			isa = PBXGroup;
 			children = (
@@ -107,10 +117,10 @@
 		BEAE2EB725953C7500FDA5D4 /* BowlingGame */ = {
 			isa = PBXGroup;
 			children = (
+				BEA35D122595769500ADCA9F /* Service */,
 				BEAE2F022595486400FDA5D4 /* Controller */,
 				BEAE2F032595487300FDA5D4 /* ViewModel */,
 				BEAE2F0F259548A700FDA5D4 /* Helper */,
-				BEAE2EEB25953C9600FDA5D4 /* GameManager.swift */,
 				BEAE2EF325953CDE00FDA5D4 /* Extensions */,
 				BEAE2EB825953C7500FDA5D4 /* AppDelegate.swift */,
 				BEAE2EBA25953C7500FDA5D4 /* SceneDelegate.swift */,
@@ -126,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				BEAE2ECF25953C7800FDA5D4 /* GameManagerTests.swift */,
+				BEA35D16259584CA00ADCA9F /* GameViewModelTests.swift */,
 				BEAE2ED125953C7800FDA5D4 /* Info.plist */,
 			);
 			path = BowlingGameTests;
@@ -316,6 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA35D17259584CA00ADCA9F /* GameViewModelTests.swift in Sources */,
 				BEAE2ED025953C7800FDA5D4 /* GameManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

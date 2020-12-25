@@ -79,15 +79,18 @@ class GameManager {
         return score
     }
     
-    var ongoingFrame = Frame()
-    
+    private var ongoingFrame = Frame()
+    var round: Int {
+        return frames.count + 1
+    }
+    var isGameCompleted: Bool {
+        return frames.count == 10
+    }
     
     func roll(_ points: Int) {
         ongoingFrame.rolls.append(points)
-        print("adding rolls")
         //If we reach the maximum number of rolls per frame we create a new one
         if ongoingFrame.isFrameCompleted {
-            print("frame completed")
             frames.append(ongoingFrame)
             ongoingFrame = Frame()
             ongoingFrame.isLastFrame = (frames.count >= 9)
