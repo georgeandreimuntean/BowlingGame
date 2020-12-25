@@ -1,8 +1,8 @@
 # BowlingGame
-A bowling game for iOS, written with SwiftUI, and MVVM architecture. A TDD Aproach is used in the development
+A bowling game for iOS, written with UIKit using Swift 5, and MVVM architecture. A TDD Aproach is used in the development
 
 ## Installation
-Open <i>BowlingGame.xcodeproj</i>
+Open <i>BowlingGame.xcodeproj</i> in XCode 12
 
 ## Project description
 MVVM Architectural pattern was chosen in order to benefit in the future implementations on a decoupled code, with separation of concerns
